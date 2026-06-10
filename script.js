@@ -56,6 +56,7 @@ const cajas = document.querySelectorAll(".caja")
 //     })
 // })
 
+// Para cambiar el color de una de las cajas específicamente
 cajas[2].addEventListener("click", () => {
     cajas[2].style.backgroundColor = "orange"
 })
